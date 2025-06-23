@@ -1,0 +1,6 @@
+.env
+package-lock.json
+
+node_modules/
+temp/
+linkedin_user_data/
