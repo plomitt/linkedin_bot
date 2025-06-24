@@ -21,11 +21,11 @@ const botConfigurations = [
 
 // Random deviation in minutes for the start time of the FIRST bot run of the day.
 // Example: If cron is set for 9:00 AM and this is 10, the first run can start between 8:50 AM and 9:10 AM.
-const RANDOM_START_OFFSET_MINUTES = 10;
+const RANDOM_START_OFFSET_MINUTES = 0;
 
 // Delay between successive bot runs (if multiple configurations are present for a day).
 // This is important to space out LinkedIn activity.
-const DELAY_BETWEEN_BOTS_MINUTES = 20; // Wait 20 minutes before starting the next bot in the sequence
+const DELAY_BETWEEN_BOTS_MINUTES = 0; // Wait n minutes before starting the next bot in the sequence
 
 // --- Utility for Native Node.js Sleep ---
 function delay(time) {
